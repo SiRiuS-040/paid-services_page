@@ -1,0 +1,37 @@
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 9;
+
+    @media (min-width: $tablet-width) {
+        width: auto;
+        overflow: scroll;
+    }
+
+    @media (min-width: $desktop-width) {
+        overflow: visible;
+        position: static;
+        top: auto;
+    }
+}
+
+.header__wrapper {
+    height: 44px;
+    width: 100vw;
+    background-color: gray;
+    background-image: url(../img/topnav-plug.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @media (min-width: $tablet-width) {
+        width: 1140px;
+        background-image: url(../img/topnav-plug-dt.png);
+        position: sticky;
+        top: 0;
+        z-index: 10;
+    }
+
+    @media (min-width: $desktop-width) {
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../common/variables.css">
+    <link rel="stylesheet" href="../../common/components.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+
+<body class="body">
+    <h1 class="visually-hidden">Бонусы и промокоды</h1>
+
+    <header class="header">
+        <div class="header__wrapper"></div>
+    </header>
+
+
+    <section class="employer-profile">
+        <div class="employer-profile__wrapper"></div>
+    </section>
+
+    <main class="main">
+
+
+
+        <section class="main-nav">
+
+            <div class="hero hero--top">
+                <a href="#" aria-label="Предыдущее меню" class="hero__privious-page-link "><svg width="16" height="16"
+                        viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                        class="hero__privious-page-icon">
+                        <path d="M11.5 1L5.20711 7.29289C4.81658 7.68342 4.81658 8.31658 5.20711 8.70711L11.5 15"
+                            stroke="#B6C2DA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </a>
+                <h2 class="hero__title">Платные услуги</h2>
+            </div>
+
+            <div class="navigation">
+                <div class="navigation__list">
+                    <button id="catalog" class="navigation__nav-button navigation__nav-button--active">
+                        Прайс-лист
+                    </button>
+                    <span class="navigation__nav-slider"></span>
+
+                    <button id="i-customer" class="navigation__nav-button">
+                        Я заказчик
+                    </button>
+                </div>
+            </div>
+
+            <div class="main-nav-wrapper">
+                <button id=""
+                    class="basic-button main-nav__button main-nav__button--open-use-promocode open-use-promo__button">Есть
+                    промокод?</button>
+                <!-- <button id="" class="basic-button main-nav__button main-nav__button--deposit deposit__button">
+                    Пополнить</button> -->
+
+                <a href="#"
+                    class="basic-button main-nav__button main-nav__button--deposit deposit__button">Пополнить</a>
+            </div>
+
+        </section>
+
+        <section class="section__catalog catalog">
+
+            <section class="catalog__nav">
+                <div class="catalog__nav-wrapper">
+                    <button id="customer"
+                        class="catalog__nav-button catalog__nav-button--active catalog__nav-button--customer"></button>
+                    <p class="catalog__nav-desc">Заказчикам</p>
+                </div>
+
+                <div class="catalog__nav-wrapper">
+                    <button id="executor" class="catalog__nav-button catalog__nav-button--executor"></button>
+                    <p class="catalog__nav-desc">Исполнителям</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="employer" class="catalog__nav-button catalog__nav-button--employer"></button>
+                    <p class="catalog__nav-desc">Работодателям</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="applicant" class="catalog__nav-button catalog__nav-button--applicant"></button>
+                    <p class="catalog__nav-desc">Соискателям</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="buyer" class="catalog__nav-button catalog__nav-button--buyer"></button>
+                    <p class="catalog__nav-desc">Покупателям</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="seller" class="catalog__nav-button catalog__nav-button--seller"></button>
+                    <p class="catalog__nav-desc">Продавцам</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="auction" class="catalog__nav-button catalog__nav-button--services"></button>
+                    <p class="catalog__nav-desc">Аукционы</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="tender" class="catalog__nav-button catalog__nav-button--services"></button>
+                    <p class="catalog__nav-desc">Тендеры</p>
+                </div>
+                <div class="catalog__nav-wrapper">
+                    <button id="services" class="catalog__nav-button catalog__nav-button--services"></button>
+                    <p class="catalog__nav-desc">Сервисы</p>
+                </div>
+            </section>
+
+            <section class="catalog__content">
+                <section class="catalog__section customer">
+                    <h3 class="catalog__title catalog__title--customer">Я заказчик</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящее задание</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart "></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+
+                                    <p class="service-item__desc">
+                                        Описание горящее задание - абзац.
+                                    </p>
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Размещение в специальном блоке на главной странице сайта,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Размещение в отдельных вкладках на страницах каталогов.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум задание</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+
+                                    <p class="service-item__desc">
+                                        Описание премиум задания - абзац.
+                                    </p>
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание премиум задания - список 1
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание премиум задания - список 2
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+
+                            </div>
+                        </li>
+
+                        <li class="catalog__item service-item raise-top">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100 - 200</span> ₽
+                                </p>
+                            </div>
+
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-customer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-customer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-customer" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+                <section class="catalog__section executor">
+                    <h3 class="catalog__title catalog__title--executor">Я исполнитель</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Pro аккаунт на месяц</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание про аккаунта - абзац.
+                                    </p>
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание про аккаунта на месяц 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание про аккаунта на месяц 2...
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Pro аккаунт на год</p>
+                                <p class="service-item__price"><span class="service-item__price-data">500</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+
+                                    <p class="service-item__desc">
+                                        Описание про аккаунта на год - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание про аккаунта на год - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание про аккаунта на год - список 2...
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  employer">
+                    <h3 class="catalog__title catalog__title--employer">Я работодатель</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящая вакансия</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание Горящая вакансия - абзац.
+                                    </p>
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Размещение в специальном блоке на главной странице сайта,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Размещение в отдельных вкладках на страницах каталогов.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум вакансия</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+
+                                    <p class="service-item__desc">
+                                        Описание премиум вакансии - абзац.
+                                    </p>
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание премиум вакансии 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание премиум вакансии 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Первый шаг</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги первый шаг - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги первый шаг список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги первый шаг список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-employer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-employer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-employer" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+
+                    </ul>
+                </section>
+
+                <section class="catalog__section  applicant">
+                    <h3 class="catalog__title catalog__title--applicant">Я соискатель</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящее резюме</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Горящее резюме - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее резюме - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее резюме - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум резюме</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+
+
+
+                                    <p class="service-item__desc">
+                                        Описание услуги Премиум резюме - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум резюме - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум резюме - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-applicant" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-applicant" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-applicant" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  buyer">
+                    <h3 class="catalog__title catalog__title--buyer">Я покупатель</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящее объявление</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Горящее объявление - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее объявление - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее объявление - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум объявление</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Премиум объявление - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум объявление - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум объявление - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-buyer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-buyer" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-buyer" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  seller">
+                    <h3 class="catalog__title catalog__title--seller">Я продавец</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящее объявление</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Горящее объявление - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее объявление - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящее объявление - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум объявление</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽ </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Премиум объявление - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум объявление - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум объявление - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-seller" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-seller" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-seller" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  auction ">
+                    <h3 class="catalog__title catalog__title--auction">Аукцион</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящий лот</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Горящий лот - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящий лот - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящий лот - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум лот</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Премиум лот - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум лот - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум лот - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-auction" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-auction" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-auction" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  tender">
+                    <h3 class="catalog__title catalog__title--tender">Тендер</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Горящий тендер</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Горящий тендер - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящий тендер - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Горящий тендер - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Премиум тендер</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Премиум тендер - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум тендер - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Премиум тендер - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <p class="service-item__title">Поднятие в топ</p>
+                                <p class="service-item__price"><span class="service-item__price-data">100-200</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Объявление разово «поднимается» вверх, после чего «снижается» естественным путём
+                                        по мере появления новых объявлений в каталоге.
+                                    </p>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                                <ul class="service-item__price-list">
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-tender" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Ежедневно</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--everyday">200</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-tender" value=""
+                                                class="service-item__input-radio">
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в 3 дня</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--in-3-days">150</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                    <li class="service-item__price-item">
+
+                                        <label class="service-item__label">
+                                            <input type="radio" name="raise-tender" value=""
+                                                class="service-item__input-radio">
+
+                                            <div class="service-item__label-wrapper">
+                                                <p class="service-item__label-desc">Раз в неделю</p>
+                                                <p class="service-item__label-price">
+                                                    <span
+                                                        class="raise__price-data raise__price-data--one-time-week">100</span>
+                                                    ₽
+                                                </p>
+                                            </div>
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="catalog__section  services">
+                    <h3 class="catalog__title catalog__title--tender">Сервисы</h3>
+                    <ul class="catalog__list">
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <div class="service-item__title-wrapper">
+                                    <p class="service-item__title">Проверка авто.</p>
+                                    <p class="service-item__sub-title">Стоимость одного отчёта.</p>
+                                </div>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Проверка авто - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Проверка авто - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Проверка авто - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                        <li class="catalog__item service-item">
+                            <div class="service-item__wrapper">
+                                <div class="service-item__title-wrapper">
+                                    <p class="service-item__title">Проверка физических лиц.</p>
+                                    <p class="service-item__sub-title">Стоимость одного отчёта.</p>
+                                </div>
+                                <p class="service-item__price"><span class="service-item__price-data">100</span> ₽
+                                </p>
+                            </div>
+                            <button class="service-item__button service-item__button--in-cart"></button>
+                            <!-- <button class="service-item__button service-item__button--coupon"></button> -->
+
+                            <div class="service-item__wrapper-hidden">
+                                <div class="service-item__desc-wrapper">
+                                    <p class="service-item__desc">
+                                        Описание услуги Проверка физических лиц - абзац.
+                                    </p>
+
+                                    <ul class="service-item__desc-list">
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Проверка физических лиц - список 1,
+                                            </p>
+                                        </li>
+                                        <li class="service-item__desc-item">
+                                            <p class="service-item__desc">
+                                                Описание услуги Проверка физических лиц - список 2.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+                            </div>
+
+                        </li>
+                    </ul>
+                </section>
+            </section>
+
+        </section>
+
+        <section class="section__customer i-customer disabled">
+            Я заказчик
+        </section>
+    </main>
+
+    <div class="footer-menu">
+    </div>
+
+    <div class="popup-wrapper">
+
+        <div class="overlay overlay --active"> </div>
+
+        <div class="popup-block buy-service">
+            <button class="popup-template__modal-close"></button>
+            <button class="popup-block__swipe-close"></button>
+            <div class="popup-block__inner ">
+                <h2 class="popup-block__main-title">Купить услугу</h2>
+                <div class="popup-block__title-wrapper"></div>
+                <div class="popup-block__desc-wrapper"></div>
+                <div class="popup-block__validity-wrapper"></div>
+                <div class="popup-block__price-wrapper"></div>
+
+                <div class="popup-block__price-list-wrapper"> </div>
+                <div class="popup-block__controls">
+                    <button class="basic-button popup-block__button popup-block__button--in-cart "
+                        aria-label="Закрыть окно заметки">Отложить</button>
+                    <button class="basic-button popup-block__button  popup-block__button--buy-now"
+                        aria-label="Сохранить заметку">Купить сейчас</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup__add-to-cart cart-alert">
+            <div class="cart-alert__wrapper">
+                <p class="cart-alert__desc">Услуга “<span class="cart-alert__title"></span>” </p>
+
+                <p class="cart-alert__desc"> добавлена в Вашу корзину</p>
+                <button class="cart-alert__button-pay">Перейти к оплате</button>
+                <button class="cart-alert__button-close"></button>
+            </div>
+        </div>
+
+
+
+        <div class="popup-template act-promo ">
+            <div class=" act-promo-wrapper">
+                <button class="popup-template__modal-close act-promo__modal-close"></button>
+                <button class="popup-template__swipe-close act-promo__swipe-close"></button>
+                <div class="popup-template__inner act-promo__inner">
+
+                    <h2 class="popup-template__main-title act-promo__main-title">Активация промокода</h2>
+                    <p class="service-item__desc act-promo__desc active">
+
+                        <!-- ВНИМАНИЕ ТЕСТ ПОДСКАЗКИ    -->
+                        <!-- <span class="popup-block__price-list-tip">Выберите опцию</span> -->
+                        <!-- ВНИМАНИЕ ТЕСТ ПОДСКАЗКИ    -->
+
+                        Введите имеющийся у вас промокод и нажмите
+                        кнопку «Продолжить»
+                    </p>
+
+
+
+
+                    <input type="text" name="promo-special" id="promocode-check"
+                        class="popup-template__text-input act-promo__text-input" placeholder="XXXXXXXX"
+                        pattern="[A-Za-z0-9'-]{1,8}" maxlength="8" required autocomplete="off">
+
+                    <p class="act-promo__desc-alert">
+
+                        Промокод не действителен
+                    </p>
+                </div>
+
+                <div class="popup-template__controls act-promo__controls active">
+
+                    <button
+                        class="basic-button popup-template__button popup-template__button-cancel  act-promo__button-cancel "
+                        aria-label="Закрыть окно заметки">Отмена</button>
+                    <button
+                        class="basic-button popup-template__button popup-template__button-check act-promo__button-check"
+                        aria-label="Сохранить заметку">Продолжить</button>
+                </div>
+            </div>
+
+            <div class="promo__wrapper">
+                <button class="popup-template__swipe-close  use-promo__swipe-close"></button>
+
+                <div class="popup-template__inner use-promo__inner">
+                    <div class="popup-template__title-wrapper use-promo__title-wrapper">
+
+                        <!-- заглушка  -->
+                        <p class="service-item__title">Горящее резюме</p>
+                    </div>
+
+                    <div class="use-promo__desc-wrapper">
+
+                        <!-- заглушка  -->
+
+                        <p class="service-item__desc">
+                            Описание услуги Горящее резюме - абзац.
+                        </p>
+
+                        <ul class="service-item__desc-list">
+                            <li class="service-item__desc-item">
+                                <p class="service-item__desc">
+                                    Описание услуги Горящее резюме - список 1,
+                                </p>
+                            </li>
+                            <li class="service-item__desc-item">
+                                <p class="service-item__desc">
+                                    Описание услуги Горящее резюме - список 2.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="use-promo__desc-wrapper"></div>
+                    <div class="use-promo__validity-wrapper">
+
+                        <!-- заглушка  -->
+                        <p class="service-item__validity"> Срок действия услуги 7 дней</p>
+
+                    </div>
+                    <div class="use-promo__price-wrapper"></div>
+                    <div class="use-promo__price-list-wrapper"> </div>
+
+                    <div class="popup-template__controls use-promo__controls">
+                        <button
+                            class="basic-button popup-template__button popup-template__button-cancel  use-promo__button-cancel"
+                            aria-label="отменить применение промокода">Назад</button>
+                        <button
+                            class="basic-button popup-template__button popup-template__button-activate-now use-promo__button-activate-now"
+                            aria-label="Применить промокод">Применить промокод</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="popup-template activated-promo">
+            <button class="popup-template__modal-close activated-promo__modal-close"></button>
+            <button class="popup-template__swipe-close activated-promo__swipe-close"></button>
+            <div class="popup-template__inner activated-promo__inner">
+                <svg width="77" height="76" viewBox="0 0 77 76" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="popup-template__icon activated-promo__icon">
+                    <path
+                        d="M73.5 34.8V38.02C73.4957 45.5675 71.0517 52.9114 66.5327 58.9564C62.0136 65.0014 55.6615 69.4237 48.4237 71.5637C41.186 73.7036 33.4504 73.4467 26.3706 70.8311C19.2909 68.2154 13.2463 63.3814 9.13836 57.0497C5.03043 50.7181 3.07927 43.2282 3.57587 35.6971C4.07247 28.166 6.99022 20.9972 11.894 15.2598C16.7977 9.5224 23.4247 5.52387 30.7867 3.86054C38.1486 2.19722 45.8509 2.95821 52.745 6.03003"
+                        stroke="#107EDC" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M73.5 10.0201L38.5 45.0551L28 34.5551" stroke="#107EDC" stroke-width="6"
+                        stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <h2 class="popup-template__main-title activated-promo__main-title">Промокод активирован
+                </h2>
+
+                <p class="popup-template__desc activated-promo__desc">
+                    Теперь Вы сможете применить купленную услугу к выбранным объявлениям в любое удобное время
+                </p>
+            </div>
+
+            <div class="popup-template__controls activated-promo__controls">
+                <button
+                    class="basic-button  popup-template__button popup-template__button-cancel activated-promo__button-cancel"
+                    aria-label="Закрыть">Закрыть</button>
+                <button
+                    class="basic-button popup-template__button popup-template__button-go-to-orders activated-promo__button-go-to-orders"
+                    aria-label="Открыть мои заказы">Мои заказы</button>
+            </div>
+        </div>
+
+        <div class="popup-template payment">
+            <button class="popup-template__modal-close payment__modal-close"></button>
+            <button class="popup-template__swipe-close payment__swipe-close"></button>
+            <div class="popup-template__inner payment__inner">
+                <h2 class="popup-template__main-title payment__main-title">Оплата услуг</h2>
+                <p class="popup-template__desc payment__desc">Плательщик</p>
+                <p class="popup-template__desc payment__desc payment__name"> Иванов Сергей </p>
+                <!-- <p class="popup-template__desc payment__public-offer-desc">Публичная оферта
+                    <span class="payment__public-offer-data">5384844/2</span>
+                </p> -->
+
+                <p class="popup-template__desc payment__desc">Выберите способ оплаты</p>
+
+                <ul class="payment__method-list">
+                    <li class="payment__method-item payment__method-item--atw  ">
+                        <a href="#" class="payment__method-link my-wallet">
+                            <div class="payment__method ">
+                                <img src="./img/logo-payment-atw.svg" alt="" class="payment__method-logo">
+                            </div>
+                            <p class="payment__method-desc">Мой кошелек
+                                <span class="payment__account-to-pay-data">190</span> ₽
+                            </p>
+                        </a>
+                    </li>
+                    <li class="payment__method-item active ">
+                        <a href="#" class="payment__method-link ">
+                            <div class="payment__method">
+                                <img src="./img/logo-payment-card.svg" alt="" class="payment__method-logo">
+                            </div>
+                            <p class="payment__method-desc">Банковская карта</p>
+                        </a>
+                    </li>
+                    <li class="payment__method-item ">
+                        <a href="#" class="payment__method-link">
+                            <div class="payment__method">
+                                <img src="./img/logo-payment-qr.svg" alt="" class="payment__method-logo">
+                            </div>
+                            <p class="payment__method-desc">QR код</p>
+                        </a>
+
+                    </li>
+                    <li class="payment__method-item">
+                        <a href="#" class="payment__method-link">
+                            <div class="payment__method">
+                                <img src="./img/logo-payment-invoice.svg" alt="" class="payment__method-logo">
+                            </div>
+                            <p class="payment__method-desc">Инвойс</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="popup-template__controls payment__controls">
+                <button class="basic-button popup-template__button popup-template__button-cancel payment__button-cancel"
+                    aria-label="Отменить оплату">Отмена</button>
+                <button class="basic-button popup-template__button popup-template__button-pay payment__button-pay"
+                    aria-label="Оплатить"> <span class="payment__button-pay-desc">Оплатить</span>
+                    &nbsp
+                    <span class="payment__pay-data"></span>&nbsp ₽</button>
+            </div>
+        </div>
+        <div class="popup-template payment-alert">
+            <button class="popup-template__modal-close payment-alert__modal-close"></button>
+            <button class="popup-template__swipe-close payment-alert__swipe-close"></button>
+            <div class="popup-template__inner payment-alert__inner ">
+                <div class="payment-alert__wrapper payment-alert__wrapper --error"></div>
+                <h2 class="popup-template__main-title payment-alert__main-title">Оплата прошла успешно</h2>
+                <p class="popup-template__desc payment-alert__desc">Теперь Вы сможете применить купленную услугу к
+                    выбранным объявлениям в любое удобное время</p>
+
+                <div class="popup-template__controls payment-alert__controls">
+                    <button
+                        class="basic-button popup-template__button popup-template__button-close payment-alert__button-close "
+                        aria-label="Закрыть окно заметки">Закрыть</button>
+                    <button
+                        class="basic-button popup-template__button  popup-template__button-my-orders payment-alert__button-my-orders"
+                        aria-label="Сохранить заметку">Мои заказы</button>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+
+    <script type="module" src="js/script.js"></script>
+    <script src="js/swiped-events.min.js"></script>
+</body>
+
+
+</html>

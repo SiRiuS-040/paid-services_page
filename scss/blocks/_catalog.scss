@@ -1,0 +1,224 @@
+.section__catalog {
+}
+.catalog {
+}
+.catalog__nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    // flex-wrap: nowrap;
+    overflow: scroll;
+    padding-bottom: 16px;
+
+    @media (min-width: $tablet-width) {
+        display: none;
+    }
+}
+
+.catalog__nav-wrapper {
+    width: 94px;
+    // height: 84px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    // border: 1px solid red;
+}
+
+.catalog__nav::-webkit-scrollbar {
+    width: 0;
+}
+
+.catalog__nav {
+    -ms-overflow-style: none;
+}
+
+.catalog__nav {
+    overflow: -moz-scrollbars-none;
+}
+
+.catalog__nav-desc {
+    margin-top: 12px;
+    color: var(--gray-850);
+    font-size: var(--text-12);
+    line-height: var(--lh-14);
+    font-weight: var(--fw-600);
+}
+
+.catalog__nav-button {
+    // border: 1px solid blue;
+
+    width: 66px;
+    height: 66px;
+    border-radius: 16px;
+    background-color: var(--white);
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 17px;
+        left: 17px;
+
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background-color: var(--blue-500);
+
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+        background-position: center;
+        // z-index: 10;
+    }
+
+    &--customer {
+        &::before {
+            background-image: url(../img/icons/icon-nav-customer.svg);
+        }
+    }
+    &--executor {
+        &::before {
+            background-image: url(../img/icons/icon-nav-executor.svg);
+        }
+    }
+
+    &--employer {
+        &::before {
+            background-color: var(--orange-700);
+            background-image: url(../img/icons/icon-nav-employer.svg);
+        }
+    }
+
+    &--applicant {
+        &::before {
+            background-color: var(--orange-700);
+            background-image: url(../img/icons/icon-nav-applicant.svg);
+        }
+    }
+
+    &--buyer {
+        &::before {
+            background-color: var(--red-300);
+            background-image: url(../img/icons/icon-nav-buyer.svg);
+        }
+    }
+    &--seller {
+        &::before {
+            background-color: var(--red-300);
+            background-image: url(../img/icons/icon-nav-seller.svg);
+        }
+    }
+    &--services {
+        &::before {
+            background-color: var(--purple-500);
+            background-image: url(../img/icons/icon-nav-services.svg);
+        }
+    }
+}
+.catalog__nav-button--active {
+}
+
+.catalog__content {
+    @media (min-width: $tablet-width) {
+        margin-top: 24px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 25px;
+    }
+}
+
+.catalog__section {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+    @media (min-width: $tablet-width) {
+        margin: 0;
+    }
+}
+
+.services {
+    @media (min-width: $tablet-width) {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+}
+
+.customer {
+}
+.catalog__title {
+    padding-left: 32px;
+    margin-bottom: 16px;
+    color: var(--blue-600);
+    font-size: var(--text-18);
+    line-height: var(--lh-24);
+    font-weight: var(--fw-500);
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        left: 0;
+        width: 24px;
+        height: 24px;
+
+        background-position: center;
+        background-size: 24px 24px;
+        background-repeat: no-repeat;
+    }
+
+    &--customer {
+        &::before {
+            background-image: url(../img/icons/icon-catalog-customer.svg);
+        }
+    }
+
+    &--executor {
+        &::before {
+            background-image: url(../img/icons/icon-catalog-executor.svg);
+        }
+    }
+
+    &--employer {
+        color: var(--orange-700);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-employer.svg);
+        }
+    }
+    &--applicant {
+        color: var(--orange-700);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-applicant.svg);
+        }
+    }
+    &--buyer {
+        color: var(--red-300);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-buyer.svg);
+        }
+    }
+
+    &--seller {
+        color: var(--red-300);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-seller.svg);
+        }
+    }
+
+    &--auction {
+        color: var(--purple-500);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-auction.svg);
+        }
+    }
+
+    &--tender {
+        color: var(--purple-500);
+        &::before {
+            background-image: url(../img/icons/icon-catalog-tender.svg);
+        }
+    }
+}

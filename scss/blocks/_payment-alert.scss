@@ -1,0 +1,42 @@
+.payment-alert {
+    @media (min-width: $tablet-width) {
+        width: 617px;
+
+        top: calc(50% - 490px / 2);
+    }
+}
+
+.payment-alert__button-close {
+    display: block;
+}
+
+.payment-alert__wrapper {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 9px;
+    width: 260px;
+    height: 200px;
+    // border: 1px solid red;
+
+    background-image: url(../img/logo-payment-ok.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+
+    &--error {
+        background-image: url(../img/logo-payment-error.png);
+    }
+
+    @media (min-width: $tablet-width) {
+        width: 317px;
+        height: 243px;
+    }
+}
+
+.payment-alert__main-title {
+    text-align: center;
+}
+
+.payment-alert__desc {
+    text-align: center;
+}

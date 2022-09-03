@@ -1,0 +1,32 @@
+@import "./global/_variables.scss";
+@import "./global/_global.scss";
+
+// заглушки
+@import "./blocks/_header.scss";
+@import "./blocks/_employer-profile.scss";
+@import "./blocks/_bottom-menu.scss";
+
+// стили
+
+@import "./blocks/_main.scss";
+@import "./blocks/_hero.scss";
+@import "./blocks/_menu-block.scss";
+@import "./blocks/_navigation.scss";
+
+@import "./blocks/_catalog.scss";
+
+@import "./blocks/_popup.scss";
+
+@import "./blocks/_cart-alert.scss";
+
+@import "./blocks/_popup-template.scss";
+
+@import "./blocks/_act-promo.scss";
+
+@import "./blocks/_use-promo.scss";
+@import "./blocks/_activated-promo.scss";
+
+
+@import "./blocks/_payment.scss";
+
+@import "./blocks/_payment-alert.scss";

@@ -1,0 +1,141 @@
+.banner {
+    // position: sticky;
+    // top: 96px;
+    // z-index: 10;
+    // @media (min-width: $tablet-width) {
+    //     width: auto;
+    //     height: auto;
+    // }
+
+    // @media (min-width: $desktop-width) {
+    //     width: auto;
+    //     height: auto;
+    // }
+    @media (min-width: $tablet-width) {
+        
+    }
+}
+
+// .banner__link {
+//     display: block;
+//     height: auto;
+//     width: auto;
+// }
+
+.banner__wrapper {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    background-image: url(../img/referall-banner-plug-mobile.png);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+
+    border-radius: 8px;
+
+    @media (min-width: $tablet-width) {
+        background-image: url(../img/referall-banner-dt-full.png);
+        background-size: cover;
+
+        width: 100%;
+        height: 111px;
+    }
+
+    // @media (min-width: $desktop-width) {
+    //     width: auto;
+    //     height: auto;
+    // }
+}
+
+//
+
+// .banner {
+//     background: radial-gradient(
+//         5415968.72% 5430413.08% at 0.08% 4.6%,
+//         rgba(222, 245, 255, 0.6) 0%,
+//         rgba(53, 165, 228, 0.697917) 54.69%,
+//         #3c8fdc 84.38%,
+//         rgba(21, 134, 210, 0.828045) 100%
+//     );
+
+//     height: 120px;
+//     border-radius: 8px;
+// }
+
+// .referral-banner__title {
+//     &--mobile {
+//         color: var(--blue-900);
+//         font-size: var(--text-20);
+//         line-height: var(--lh-24);
+//         font-weight: var(--fw-400);
+
+//         margin-top: 15px;
+
+//         display: block;
+//         @media (min-width: $tablet-width) {
+//             display: none;
+//         }
+//     }
+
+//     &--dt {
+//         display: none;
+//         @media (min-width: $tablet-width) {
+//             display: block;
+//         }
+//     }
+// }
+// .referral-banner__desc {
+//     &--mobile {
+//         display: block;
+//         @media (min-width: $tablet-width) {
+//             display: none;
+//         }
+//     }
+
+//     &--dt {
+//         display: none;
+//         @media (min-width: $tablet-width) {
+//             display: block;
+//         }
+//     }
+// }
+
+// .referral-banner__link {
+//     margin-top: 8px;
+
+//     &--mobile {
+//         margin-bottom: 15px;
+
+//         padding: 10px 31px;
+
+//         color: var(--black);
+//         font-size: var(--text-11);
+//         line-height: var(--lh-14);
+//         font-weight: var(--fw-400);
+
+//         display: block;
+//         @media (min-width: $tablet-width) {
+//             display: none;
+//         }
+//     }
+
+//     &--dt {
+//         margin-bottom: 10px;
+//         display: none;
+//         @media (min-width: $tablet-width) {
+//             display: block;
+//         }
+//     }
+// }
+
+// .referral-banner__wrapper {
+//     padding-left: 25px;
+// }
+
+// .referral-banner__image-wrapper {
+//     width: 145px;
+//     height: 100px;
+//     background-image: url(../img/referall-banner-mobile.png);
+//     background-repeat: no-repeat;
+//     background-position: center;
+// }

@@ -1,0 +1,21 @@
+.act-promo__controls,
+.use-promo__controls {
+    display: none; // для скриптов
+
+    grid-template-columns: 1fr 2fr;
+
+    &.active {
+        display: grid; // для скриптов
+    }
+
+    @media (min-width: $tablet-width) {
+    }
+}
+
+.use-promo__inner {
+    display: none;
+
+    &.active {
+        display: block; // для скриптов
+    }
+}

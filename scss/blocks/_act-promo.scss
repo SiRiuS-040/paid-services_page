@@ -1,0 +1,52 @@
+.act-promo {
+}
+
+.act-promo__main-title {
+}
+
+.act-promo__desc {
+    margin-bottom: 24px;
+    display: none;
+    position: relative;
+
+    &.active {
+        display: block; // для скриптов
+    }
+}
+
+.act-promo__desc-alert {
+    color: var(--red-600);
+    display: none;
+
+    @media (min-width: $tablet-width) {
+        margin-top: -20px;
+        margin-bottom: -4px;
+    }
+
+    &.active {
+        display: block; // для скриптов
+    }
+}
+
+.act-promo__text-input {
+    margin-top: 0px;
+
+    width: 100%;
+    border-radius: 8px;
+    padding: 10px 0 12px 0;
+    margin-bottom: 24px;
+    text-align: center;
+
+    color: var(--gray-800);
+    font-size: var(--text-20);
+    line-height: var(--lh-24);
+    font-weight: var(--fw-400);
+
+    border: 1px solid var(--gray-500);
+    // border: 1px solid red;
+
+    // &:invalid {
+    //     border: 1px solid red;
+    //     color: red;
+    // }
+}

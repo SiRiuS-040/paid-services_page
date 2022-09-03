@@ -1,0 +1,29 @@
+.main {
+    padding-left: 15px;
+    padding-right: 15px;
+    box-shadow: 1px 4px 12px rgba(54, 94, 125, 0.1);
+    margin-bottom: 54px;
+
+    @media (min-width: $tablet-width) {
+        margin-bottom: 0;
+        margin-left: 78px;
+        padding: 34px 34px 34px 24px;
+        background-color: var(--white);
+        border-radius: 16px;
+        box-shadow: none;
+        min-height: calc(100vh - 44px - 52px);
+    }
+
+    @media (min-width: $desktop-width) {
+        margin-left: 274px;
+        margin-left: calc((100% - 866px + 274px) / 2);
+        width: 866px;
+
+        position: relative;
+    }
+}
+
+.main__menu {
+    position: sticky;
+    bottom: 0;
+}
